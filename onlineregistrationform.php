@@ -53,8 +53,8 @@
 <tr><td>source</td><td><input type="text" name="source"  
 	size="32px" placeholder="source" id="d" required></td></tr>
 <tr><td>destination</td><td width="200PX"><input type="text" size="32px" name="destination" placeholder="destination" width="600px" height="600px" id="c" required>
-<tr><td>departure</td><td><input type="text" size="32px" name="departure" placeholder="DDMMYYYY" id="b" required></td></tr>
-<tr><td>coming</td><td ><input type="text" size="32px"  name="coming" placeholder="DDMMYYYY" id="a" required></td></tr>
+<tr><td>departure</td><td><input type="text" size="32px" name="departure" placeholder="DDMMYYYY" maxlength="8" id="b" required></td></tr>
+<tr><td>coming</td><td ><input type="text" size="32px"  name="coming" placeholder="DDMMYYYY" maxlength="8" id="a" required></td></tr>
 <tr><td>numberofseats</td><TD>
 <select name="numberofseats" id="e" required>
 	<option value=""></option>
